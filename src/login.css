@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.login{
+    height: 620px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 1.5rem;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+    
+
+
+}
+
+.hello{
+    color: #334155;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 3.5rem;
+}
+
+.wlcm{
+    font-size: 1.2rem;
+    color:#4b5563 ;
+    margin-top: 0.8rem;
+    line-height: 1.3rem;
+    word-spacing: 2px;
+
+}
+
+.form{
+    margin-top: 3rem;
+
+}
+.input{
+    background: #fff;
+    padding: 18px 5px;
+    text-align: start;
+    width: 87%;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.input span{
+    color:#9ca3af ;
+    padding-left: 15px;
+    font-size: 16px;
+    padding-right: 1rem;
+    
+
+}
+.input:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .input .icon{
+    height: 50px;
+    width: 50px;
+    background-image: url('./assets/eye-slash.svg');
+    background-size: cover;
+    background-position: center;
+} */
+
+.recover{
+    text-align: end;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    color: #334155d8;
+    font-size: 14px;
+}
+
+.btn{
+    background: #f87171    ;
+    color: #fff;
+    border-radius: 10px;
+    padding: 13px 0;
+    margin: 2rem auto;
+    width: 83%;
+    -webkit-box-shadow: 0px 20px 18px -9px rgba(248,113,113,0.32); 
+box-shadow: 0px 20px 18px -9px rgba(248,113,113,0.32);
+}
+
+.social p{
+    color: #4b5563;
+    font-size: 15px;
+}
+
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.signup{
+    margin-top: 2rem;
+    color: #4b5563;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: #0284c7;
+}

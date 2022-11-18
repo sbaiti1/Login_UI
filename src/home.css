@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.home{
+    height: 620px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 1.5rem;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+    
+
+
+}
+.image{
+    width: 280px;
+    height: 325px;
+    background-image: url('./assets/girl_purple.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+    margin: 7px auto;
+    
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 2.7rem;
+    color: #334155;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height:1.7rem;
+}
+
+.text{
+    margin-top: 1rem;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.btns{
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #f1f5f9;
+    border: 2px solid white;
+    width: 87%;
+
+   
+}
+.btns>div{
+    border-radius: inherit;
+    width: 50%;
+    color: #334155;
+}
+
+.btns .register{
+    padding: 15px 20px;
+
+    background: #fff;
+}
+.sign{
+    padding: 15px 25px;
+
+
+}

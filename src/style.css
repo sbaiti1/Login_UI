@@ -1,0 +1,22 @@
+
+html{
+  background: rgb(253,242,248);
+background: radial-gradient(circle, rgba(253,242,248,0.9976365546218487) 8%, rgba(240,249,255,1) 85%);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+body{
+    margin: 0;
+    display: flex;
+  place-items: center;
+  
+    /* background: rgb(253,242,248);
+background: radial-gradient(circle, rgba(253,242,248,0.9976365546218487) 8%, rgba(240,249,255,1) 85%);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
